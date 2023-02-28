@@ -1,0 +1,33 @@
+{
+  "name": "downbot",
+  "version": "1.0.0",
+  "description": "Bot Telegram API",
+  "main": "index.js",
+  "scripts": {
+    "start": "tsx src/index.ts",
+    "dev:start": "tsx watch src/index.ts"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/downbios/downbot.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/downbios/downbot/issues"
+  },
+  "homepage": "https://github.com/downbios/downbot#readme",
+  "devDependencies": {
+    "@types/node": "^18.14.1",
+    "@types/node-telegram-bot-api": "^0.61.2",
+    "prisma": "^4.10.1",
+    "tsx": "^3.12.3",
+    "typescript": "^4.9.5"
+  },
+  "dependencies": {
+    "@prisma/client": "^4.10.1",
+    "dotenv": "^16.0.3",
+    "node-telegram-bot-api": "^0.61.0"
+  }
+}
