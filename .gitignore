@@ -1,0 +1,17 @@
+# Ignorar diretório node_modules
+node_modules/
+
+# Ignorar arquivos de dependências do npm
+package-lock.json
+npm-debug.log
+
+# Ignorar arquivos gerados durante a construção do projeto
+/build
+/dist
+
+# Ignorar arquivos de log
+*.log
+
+# Ignorar arquivos de configuração específicos do sistema
+.DS_Store
+.env
